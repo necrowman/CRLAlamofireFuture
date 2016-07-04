@@ -8,11 +8,11 @@
 
 import Foundation
 
-class CRLAlamofireFuture {
+public class CRLAlamofireFuture {
     
-    static let instance = CRLAlamofireFuture()
+    public static let instance = CRLAlamofireFuture()
     
-    func frameworkFunctionExample() -> String {
+    public func frameworkFunctionExample() -> String {
         return "This is test framework function example"
     }
     
