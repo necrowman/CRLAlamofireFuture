@@ -12,7 +12,6 @@
 		443DE4701D2A8B8E001608E9 /* CRLAlamofireFutureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DE46F1D2A8B8E001608E9 /* CRLAlamofireFutureTests.swift */; };
 		443DE47B1D2A8C37001608E9 /* CRLAlamofireFuture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DE47A1D2A8C37001608E9 /* CRLAlamofireFuture.swift */; };
 		443DE4C31D2A970A001608E9 /* CRLAlamofireFuture-watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 443DE4C21D2A970A001608E9 /* CRLAlamofireFuture-watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		443DE52D1D2ABF51001608E9 /* CRLAlamofireFuture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DE47A1D2A8C37001608E9 /* CRLAlamofireFuture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -273,7 +272,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				443DE52D1D2ABF51001608E9 /* CRLAlamofireFuture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
