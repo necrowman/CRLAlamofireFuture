@@ -10,6 +10,7 @@
 		443DE4641D2A8B8E001608E9 /* CRLAlamofireFuture.h in Headers */ = {isa = PBXBuildFile; fileRef = 443DE4631D2A8B8E001608E9 /* CRLAlamofireFuture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		443DE46B1D2A8B8E001608E9 /* CRLAlamofireFuture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 443DE4601D2A8B8E001608E9 /* CRLAlamofireFuture.framework */; };
 		443DE4701D2A8B8E001608E9 /* CRLAlamofireFutureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DE46F1D2A8B8E001608E9 /* CRLAlamofireFutureTests.swift */; };
+		443DE47B1D2A8C37001608E9 /* CRLAlamofireFuture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DE47A1D2A8C37001608E9 /* CRLAlamofireFuture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		443DE46A1D2A8B8E001608E9 /* CRLAlamofireFutureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRLAlamofireFutureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		443DE46F1D2A8B8E001608E9 /* CRLAlamofireFutureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRLAlamofireFutureTests.swift; sourceTree = "<group>"; };
 		443DE4711D2A8B8E001608E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		443DE47A1D2A8C37001608E9 /* CRLAlamofireFuture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRLAlamofireFuture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				443DE4631D2A8B8E001608E9 /* CRLAlamofireFuture.h */,
 				443DE4651D2A8B8E001608E9 /* Info.plist */,
+				443DE47A1D2A8C37001608E9 /* CRLAlamofireFuture.swift */,
 			);
 			path = CRLAlamofireFuture;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				443DE47B1D2A8C37001608E9 /* CRLAlamofireFuture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +314,7 @@
 		443DE4751D2A8B8E001608E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -320,12 +325,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = CrossroadLabs.CRLAlamofireFuture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		443DE4761D2A8B8E001608E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
