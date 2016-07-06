@@ -13,8 +13,8 @@ import CRLAlamofireFuture
 
 class CRLAlamofireFuture_iOSTests: XCTestCase {
     
-    let correctURLBase = "https://raw.githubusercontent.com/necrowman/CRLAlomofireFeature/master/"
-    let uncorrectURLBase = "https://raw.githubusercontent12.com/necrowman/CRLAlomofireFeature/master/"
+    let correctURLBase = "https://raw.githubusercontent.com/necrowman/CRLAlamofireFuture/master/TestSources/"
+    let uncorrectURLBase = "https://raw.githubusercontent12.com/necrowman/CRLAlamofireFuture/master/TestSources/"
     
     override func setUp() {
         super.setUp()
@@ -33,7 +33,7 @@ class CRLAlamofireFuture_iOSTests: XCTestCase {
         let future = Alamofire.request(.GET, urlString).responseString()
         future.onSuccess { value in
             print("RESULT VALUE -> ", value)
-            XCTAssertEqual(value, "Test String")
+            XCTAssertEqual(value, "responseString() -> Future is OK!")
             asyncExpectation.fulfill()
         }
         future.onFailure { error in

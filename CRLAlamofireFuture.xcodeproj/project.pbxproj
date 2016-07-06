@@ -292,6 +292,7 @@
 				443DE5401D2AD67E001608E9 /* Sources */,
 				443DE5411D2AD67E001608E9 /* Frameworks */,
 				443DE5421D2AD67E001608E9 /* Resources */,
+				4431AC701D2D35CA00A79B16 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -522,6 +523,27 @@
 				"$(SRCROOT)/Carthage/Build/iOS/Future.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RunLoop.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		4431AC701D2D35CA00A79B16 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Buils/iOS/Boilerplate.framework",
+				"$(SRCROOT)/Carthage/Buils/iOS/Event.framework",
+				"$(SRCROOT)/Carthage/Buils/iOS/ExecutionContext.framework",
+				"$(SRCROOT)/Carthage/Buils/iOS/Foundation3.framework",
+				"$(SRCROOT)/Carthage/Buils/iOS/Future.framework",
+				"$(SRCROOT)/Carthage/Buils/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Buils/iOS/RunLoop.framework",
 			);
 			outputPaths = (
 			);

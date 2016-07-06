@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     @IBAction func didTapTestItButton(sender: AnyObject) {
         
         
-        testLabel.text = CRLAlamofireFuture.instance.frameworkFunctionExample()
+//        testLabel.text = CRLAlamofireFuture.instance.frameworkFunctionExample()
         
         let urlString = "\(correctURLBase)simpleTestURL.txt"
         let future = Alamofire.request(.GET, urlString).responseString()
