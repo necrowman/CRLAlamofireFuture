@@ -12,6 +12,7 @@ import Future
 
 public extension Alamofire.Request {
     public func responseJSON() -> Future<AnyObject> {
+        
         let p = Promise<AnyObject>()
         self.responseJSON { (response: Response<AnyObject, NSError>) in
             switch response.result {
