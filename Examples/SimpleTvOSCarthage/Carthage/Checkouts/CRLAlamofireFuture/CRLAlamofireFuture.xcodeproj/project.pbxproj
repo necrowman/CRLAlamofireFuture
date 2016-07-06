@@ -583,16 +583,24 @@
 		};
 		4431ACA11D2D571A00A79B16 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/tvOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/Boilerplate.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/Event.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/ExecutionContext.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/Foundation3.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/Future.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/RunLoop.framework",
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage build --platform tvOS --project-directory \"$SRCROOT\"";
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
 /* End PBXShellScriptBuildPhase section */
 

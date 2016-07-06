@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4431AC961D2D41BD00A79B16 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC8E1D2D41BD00A79B16 /* Alamofire.framework */; };
+		4431AC971D2D41BD00A79B16 /* Boilerplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC8F1D2D41BD00A79B16 /* Boilerplate.framework */; };
+		4431AC981D2D41BD00A79B16 /* Event.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC901D2D41BD00A79B16 /* Event.framework */; };
+		4431AC991D2D41BD00A79B16 /* ExecutionContext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC911D2D41BD00A79B16 /* ExecutionContext.framework */; };
+		4431AC9A1D2D41BD00A79B16 /* Foundation3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC921D2D41BD00A79B16 /* Foundation3.framework */; };
+		4431AC9B1D2D41BD00A79B16 /* Future.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC931D2D41BD00A79B16 /* Future.framework */; };
+		4431AC9C1D2D41BD00A79B16 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC941D2D41BD00A79B16 /* Result.framework */; };
+		4431AC9D1D2D41BD00A79B16 /* RunLoop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC951D2D41BD00A79B16 /* RunLoop.framework */; };
 		44D06D6F1D2BC20400BB2A15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D06D6E1D2BC20400BB2A15 /* AppDelegate.swift */; };
 		44D06D711D2BC20400BB2A15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D06D701D2BC20400BB2A15 /* ViewController.swift */; };
 		44D06D741D2BC20400BB2A15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D06D721D2BC20400BB2A15 /* Main.storyboard */; };
@@ -26,6 +34,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4431AC8E1D2D41BD00A79B16 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		4431AC8F1D2D41BD00A79B16 /* Boilerplate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Boilerplate.framework; sourceTree = "<group>"; };
+		4431AC901D2D41BD00A79B16 /* Event.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Event.framework; sourceTree = "<group>"; };
+		4431AC911D2D41BD00A79B16 /* ExecutionContext.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ExecutionContext.framework; sourceTree = "<group>"; };
+		4431AC921D2D41BD00A79B16 /* Foundation3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Foundation3.framework; sourceTree = "<group>"; };
+		4431AC931D2D41BD00A79B16 /* Future.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Future.framework; sourceTree = "<group>"; };
+		4431AC941D2D41BD00A79B16 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Result.framework; sourceTree = "<group>"; };
+		4431AC951D2D41BD00A79B16 /* RunLoop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RunLoop.framework; sourceTree = "<group>"; };
 		44D06D6B1D2BC20400BB2A15 /* SimpleTvOSCarthage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTvOSCarthage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D06D6E1D2BC20400BB2A15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44D06D701D2BC20400BB2A15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,7 +51,7 @@
 		44D06D7C1D2BC20500BB2A15 /* SimpleTvOSCarthageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTvOSCarthageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D06D801D2BC20500BB2A15 /* SimpleTvOSCarthageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTvOSCarthageUITests.swift; sourceTree = "<group>"; };
 		44D06D821D2BC20500BB2A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		44D06D8B1D2BC2CC00BB2A15 /* CRLAlamofireFuture.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CRLAlamofireFuture.framework; path = Carthage/Build/tvOS/CRLAlamofireFuture.framework; sourceTree = "<group>"; };
+		44D06D8B1D2BC2CC00BB2A15 /* CRLAlamofireFuture.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CRLAlamofireFuture.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +59,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4431AC961D2D41BD00A79B16 /* Alamofire.framework in Frameworks */,
+				4431AC971D2D41BD00A79B16 /* Boilerplate.framework in Frameworks */,
+				4431AC981D2D41BD00A79B16 /* Event.framework in Frameworks */,
+				4431AC991D2D41BD00A79B16 /* ExecutionContext.framework in Frameworks */,
+				4431AC9A1D2D41BD00A79B16 /* Foundation3.framework in Frameworks */,
+				4431AC9B1D2D41BD00A79B16 /* Future.framework in Frameworks */,
+				4431AC9C1D2D41BD00A79B16 /* Result.framework in Frameworks */,
+				4431AC9D1D2D41BD00A79B16 /* RunLoop.framework in Frameworks */,
 				44D06D8C1D2BC2CC00BB2A15 /* CRLAlamofireFuture.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -57,10 +81,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4431AC9E1D2D41C800A79B16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4431AC8E1D2D41BD00A79B16 /* Alamofire.framework */,
+				4431AC8F1D2D41BD00A79B16 /* Boilerplate.framework */,
+				4431AC901D2D41BD00A79B16 /* Event.framework */,
+				4431AC911D2D41BD00A79B16 /* ExecutionContext.framework */,
+				4431AC921D2D41BD00A79B16 /* Foundation3.framework */,
+				4431AC931D2D41BD00A79B16 /* Future.framework */,
+				4431AC941D2D41BD00A79B16 /* Result.framework */,
+				4431AC951D2D41BD00A79B16 /* RunLoop.framework */,
+				44D06D8B1D2BC2CC00BB2A15 /* CRLAlamofireFuture.framework */,
+			);
+			name = Frameworks;
+			path = Carthage/Build/tvOS;
+			sourceTree = "<group>";
+		};
 		44D06D621D2BC20400BB2A15 = {
 			isa = PBXGroup;
 			children = (
-				44D06D8B1D2BC2CC00BB2A15 /* CRLAlamofireFuture.framework */,
+				4431AC9E1D2D41C800A79B16 /* Frameworks */,
 				44D06D6D1D2BC20400BB2A15 /* SimpleTvOSCarthage */,
 				44D06D7F1D2BC20500BB2A15 /* SimpleTvOSCarthageUITests */,
 				44D06D6C1D2BC20400BB2A15 /* Products */,
@@ -201,6 +242,14 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/tvOS/CRLAlamofireFuture.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/Boilerplate.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/Event.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/ExecutionContext.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/Foundation3.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/Future.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/RunLoop.framework",
 			);
 			outputPaths = (
 			);
@@ -406,6 +455,7 @@
 				44D06D871D2BC20500BB2A15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44D06D881D2BC20500BB2A15 /* Build configuration list for PBXNativeTarget "SimpleTvOSCarthageUITests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +464,7 @@
 				44D06D8A1D2BC20500BB2A15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
