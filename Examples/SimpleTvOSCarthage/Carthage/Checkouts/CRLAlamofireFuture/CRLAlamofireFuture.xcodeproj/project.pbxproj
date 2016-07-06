@@ -333,6 +333,7 @@
 				443DE5361D2AD67E001608E9 /* Frameworks */,
 				443DE5371D2AD67E001608E9 /* Headers */,
 				443DE5381D2AD67E001608E9 /* Resources */,
+				4431AC9F1D2D506600A79B16 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -369,6 +370,7 @@
 				443DE5601D2AD6C9001608E9 /* Frameworks */,
 				443DE5611D2AD6C9001608E9 /* Headers */,
 				443DE5621D2AD6C9001608E9 /* Resources */,
+				4431ACA01D2D50B400A79B16 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -564,6 +566,35 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4431AC9F1D2D506600A79B16 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage build --platform \"$PLATFORM_NAME\" --project-directory \"$SRCROOT\"";
+		};
+		4431ACA01D2D50B400A79B16 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage build --platform \"$PLATFORM_NAME\" --project-directory \"$SRCROOT\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		443DE5351D2AD67E001608E9 /* Sources */ = {

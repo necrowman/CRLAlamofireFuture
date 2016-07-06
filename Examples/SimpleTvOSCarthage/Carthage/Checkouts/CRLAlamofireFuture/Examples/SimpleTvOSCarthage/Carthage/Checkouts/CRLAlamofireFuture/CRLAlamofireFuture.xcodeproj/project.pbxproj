@@ -333,7 +333,6 @@
 				443DE5361D2AD67E001608E9 /* Frameworks */,
 				443DE5371D2AD67E001608E9 /* Headers */,
 				443DE5381D2AD67E001608E9 /* Resources */,
-				4431AC561D2D147500A79B16 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -351,7 +350,6 @@
 				443DE5401D2AD67E001608E9 /* Sources */,
 				443DE5411D2AD67E001608E9 /* Frameworks */,
 				443DE5421D2AD67E001608E9 /* Resources */,
-				4431AC701D2D35CA00A79B16 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -371,8 +369,6 @@
 				443DE5601D2AD6C9001608E9 /* Frameworks */,
 				443DE5611D2AD6C9001608E9 /* Headers */,
 				443DE5621D2AD6C9001608E9 /* Resources */,
-				445E15011D2BD42F00946793 /* ShellScript */,
-				4431AC851D2D3C1D00A79B16 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -568,86 +564,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		4431AC561D2D147500A79B16 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Boilerplate.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Event.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/ExecutionContext.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Foundation3.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Future.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RunLoop.framework",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-		4431AC701D2D35CA00A79B16 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
-				"$(SRCROOT)/Carthage/Buils/iOS/Boilerplate.framework",
-				"$(SRCROOT)/Carthage/Buils/iOS/Event.framework",
-				"$(SRCROOT)/Carthage/Buils/iOS/ExecutionContext.framework",
-				"$(SRCROOT)/Carthage/Buils/iOS/Foundation3.framework",
-				"$(SRCROOT)/Carthage/Buils/iOS/Future.framework",
-				"$(SRCROOT)/Carthage/Buils/iOS/Result.framework",
-				"$(SRCROOT)/Carthage/Buils/iOS/RunLoop.framework",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-			showEnvVarsInLog = 0;
-		};
-		4431AC851D2D3C1D00A79B16 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/tvOS/Alamofire.framework",
-				"$(SRCROOT)/Carthage/Build/tvOS/Boilerplate.framework",
-				"$(SRCROOT)/Carthage/Build/tvOS/Event.framework",
-				"$(SRCROOT)/Carthage/Build/tvOS/ExecutionContext.framework",
-				"$(SRCROOT)/Carthage/Build/tvOS/Foundation3.framework",
-				"$(SRCROOT)/Carthage/Build/tvOS/Future.framework",
-				"$(SRCROOT)/Carthage/Build/tvOS/Result.framework",
-				"$(SRCROOT)/Carthage/Build/tvOS/RunLoop.framework",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-		445E15011D2BD42F00946793 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage build --platform \"$PLATFORM_NAME\" --project-directory \"$SRCROOT\"";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		443DE5351D2AD67E001608E9 /* Sources */ = {
