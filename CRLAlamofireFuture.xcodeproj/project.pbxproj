@@ -15,6 +15,14 @@
 		4431AC531D2D12D500A79B16 /* Future.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC4B1D2D12D500A79B16 /* Future.framework */; };
 		4431AC541D2D12D500A79B16 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC4C1D2D12D500A79B16 /* Result.framework */; };
 		4431AC551D2D12D500A79B16 /* RunLoop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC4D1D2D12D500A79B16 /* RunLoop.framework */; };
+		4431AC681D2D21A400A79B16 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC461D2D12D500A79B16 /* Alamofire.framework */; };
+		4431AC691D2D21A400A79B16 /* Boilerplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC471D2D12D500A79B16 /* Boilerplate.framework */; };
+		4431AC6A1D2D21A400A79B16 /* Event.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC481D2D12D500A79B16 /* Event.framework */; };
+		4431AC6B1D2D21A400A79B16 /* ExecutionContext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC491D2D12D500A79B16 /* ExecutionContext.framework */; };
+		4431AC6C1D2D21A400A79B16 /* Foundation3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC4A1D2D12D500A79B16 /* Foundation3.framework */; };
+		4431AC6D1D2D21A400A79B16 /* Future.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC4B1D2D12D500A79B16 /* Future.framework */; };
+		4431AC6E1D2D21A400A79B16 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC4C1D2D12D500A79B16 /* Result.framework */; };
+		4431AC6F1D2D21A400A79B16 /* RunLoop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC4D1D2D12D500A79B16 /* RunLoop.framework */; };
 		443DE5451D2AD67E001608E9 /* CRLAlamofireFuture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 443DE53A1D2AD67E001608E9 /* CRLAlamofireFuture.framework */; };
 		443DE56E1D2AD6C9001608E9 /* CRLAlamofireFuture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 443DE5641D2AD6C9001608E9 /* CRLAlamofireFuture.framework */; };
 		443DE58A1D2AD77E001608E9 /* CRLAlamofireFuture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 443DE5801D2AD77D001608E9 /* CRLAlamofireFuture.framework */; };
@@ -106,6 +114,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4431AC681D2D21A400A79B16 /* Alamofire.framework in Frameworks */,
+				4431AC691D2D21A400A79B16 /* Boilerplate.framework in Frameworks */,
+				4431AC6A1D2D21A400A79B16 /* Event.framework in Frameworks */,
+				4431AC6B1D2D21A400A79B16 /* ExecutionContext.framework in Frameworks */,
+				4431AC6C1D2D21A400A79B16 /* Foundation3.framework in Frameworks */,
+				4431AC6D1D2D21A400A79B16 /* Future.framework in Frameworks */,
+				4431AC6E1D2D21A400A79B16 /* Result.framework in Frameworks */,
+				4431AC6F1D2D21A400A79B16 /* RunLoop.framework in Frameworks */,
 				443DE5451D2AD67E001608E9 /* CRLAlamofireFuture.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -802,6 +818,10 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -851,6 +871,10 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
