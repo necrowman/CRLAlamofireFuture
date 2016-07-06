@@ -370,7 +370,7 @@
 				443DE5601D2AD6C9001608E9 /* Frameworks */,
 				443DE5611D2AD6C9001608E9 /* Headers */,
 				443DE5621D2AD6C9001608E9 /* Resources */,
-				4431ACA01D2D50B400A79B16 /* ShellScript */,
+				4431ACA11D2D571A00A79B16 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -581,7 +581,7 @@
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage build --platform \"$PLATFORM_NAME\" --project-directory \"$SRCROOT\"";
 		};
-		4431ACA01D2D50B400A79B16 /* ShellScript */ = {
+		4431ACA11D2D571A00A79B16 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -592,7 +592,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage build --platform \"$PLATFORM_NAME\" --project-directory \"$SRCROOT\"";
+			shellScript = "/usr/local/bin/carthage build --platform tvOS --project-directory \"$SRCROOT\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -963,7 +963,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
@@ -1018,7 +1018,7 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

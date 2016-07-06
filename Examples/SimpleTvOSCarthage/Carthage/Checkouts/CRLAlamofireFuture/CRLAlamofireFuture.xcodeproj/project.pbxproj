@@ -23,39 +23,29 @@
 		4431AC6D1D2D21A400A79B16 /* Future.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC4B1D2D12D500A79B16 /* Future.framework */; };
 		4431AC6E1D2D21A400A79B16 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC4C1D2D12D500A79B16 /* Result.framework */; };
 		4431AC6F1D2D21A400A79B16 /* RunLoop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC4D1D2D12D500A79B16 /* RunLoop.framework */; };
-		4431AC711D2D3AE500A79B16 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 445E15041D2BD45E00946793 /* Cartfile */; };
-		4431AC721D2D3AE700A79B16 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 445E15041D2BD45E00946793 /* Cartfile */; };
-		4431AC731D2D3AE800A79B16 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 445E15041D2BD45E00946793 /* Cartfile */; };
-		4431AC7C1D2D3C0100A79B16 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC741D2D3C0100A79B16 /* Alamofire.framework */; };
-		4431AC7D1D2D3C0100A79B16 /* Boilerplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC751D2D3C0100A79B16 /* Boilerplate.framework */; };
-		4431AC7E1D2D3C0100A79B16 /* Event.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC761D2D3C0100A79B16 /* Event.framework */; };
-		4431AC7F1D2D3C0100A79B16 /* ExecutionContext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC771D2D3C0100A79B16 /* ExecutionContext.framework */; };
-		4431AC801D2D3C0100A79B16 /* Foundation3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC781D2D3C0100A79B16 /* Foundation3.framework */; };
-		4431AC811D2D3C0100A79B16 /* Future.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC791D2D3C0100A79B16 /* Future.framework */; };
-		4431AC821D2D3C0100A79B16 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC7A1D2D3C0100A79B16 /* Result.framework */; };
-		4431AC831D2D3C0100A79B16 /* RunLoop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC7B1D2D3C0100A79B16 /* RunLoop.framework */; };
-		4431AC861D2D3F4A00A79B16 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC741D2D3C0100A79B16 /* Alamofire.framework */; };
-		4431AC871D2D3F4A00A79B16 /* Boilerplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC751D2D3C0100A79B16 /* Boilerplate.framework */; };
-		4431AC881D2D3F4A00A79B16 /* Event.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC761D2D3C0100A79B16 /* Event.framework */; };
-		4431AC891D2D3F4A00A79B16 /* ExecutionContext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC771D2D3C0100A79B16 /* ExecutionContext.framework */; };
-		4431AC8A1D2D3F4A00A79B16 /* Foundation3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC781D2D3C0100A79B16 /* Foundation3.framework */; };
-		4431AC8B1D2D3F4A00A79B16 /* Future.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC791D2D3C0100A79B16 /* Future.framework */; };
-		4431AC8C1D2D3F4A00A79B16 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC7A1D2D3C0100A79B16 /* Result.framework */; };
-		4431AC8D1D2D3F4A00A79B16 /* RunLoop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC7B1D2D3C0100A79B16 /* RunLoop.framework */; };
 		443DE5451D2AD67E001608E9 /* CRLAlamofireFuture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 443DE53A1D2AD67E001608E9 /* CRLAlamofireFuture.framework */; };
-		443DE56E1D2AD6C9001608E9 /* CRLAlamofireFuture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 443DE5641D2AD6C9001608E9 /* CRLAlamofireFuture.framework */; };
 		443DE58A1D2AD77E001608E9 /* CRLAlamofireFuture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 443DE5801D2AD77D001608E9 /* CRLAlamofireFuture.framework */; };
 		443DE5C01D2ADD18001608E9 /* CRLAlamofireFuture.h in Headers */ = {isa = PBXBuildFile; fileRef = 443DE5BF1D2ADD18001608E9 /* CRLAlamofireFuture.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		443DE5C11D2ADD18001608E9 /* CRLAlamofireFuture.h in Headers */ = {isa = PBXBuildFile; fileRef = 443DE5BF1D2ADD18001608E9 /* CRLAlamofireFuture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		443DE5C31D2ADD18001608E9 /* CRLAlamofireFuture.h in Headers */ = {isa = PBXBuildFile; fileRef = 443DE5BF1D2ADD18001608E9 /* CRLAlamofireFuture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		443DE5C51D2ADDE4001608E9 /* CRLAlamofireFuture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DE5C41D2ADDE4001608E9 /* CRLAlamofireFuture.swift */; };
 		443DE5C61D2ADDE4001608E9 /* CRLAlamofireFuture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DE5C41D2ADDE4001608E9 /* CRLAlamofireFuture.swift */; };
-		443DE5C71D2ADDE4001608E9 /* CRLAlamofireFuture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DE5C41D2ADDE4001608E9 /* CRLAlamofireFuture.swift */; };
 		443DE5C81D2ADDE4001608E9 /* CRLAlamofireFuture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DE5C41D2ADDE4001608E9 /* CRLAlamofireFuture.swift */; };
 		443DE5C91D2ADDE4001608E9 /* CRLAlamofireFuture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DE5C41D2ADDE4001608E9 /* CRLAlamofireFuture.swift */; };
 		443DE5CA1D2ADDE4001608E9 /* CRLAlamofireFuture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DE5C41D2ADDE4001608E9 /* CRLAlamofireFuture.swift */; };
 		443DE5CB1D2ADDE4001608E9 /* CRLAlamofireFuture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DE5C41D2ADDE4001608E9 /* CRLAlamofireFuture.swift */; };
-		445E15051D2BD45E00946793 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 445E15041D2BD45E00946793 /* Cartfile */; };
+		445D2A181D2D715600C5846A /* CRLAlamofireFuture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DE5C41D2ADDE4001608E9 /* CRLAlamofireFuture.swift */; };
+		445D2A191D2D715900C5846A /* CRLAlamofireFuture.h in Headers */ = {isa = PBXBuildFile; fileRef = 443DE5BF1D2ADD18001608E9 /* CRLAlamofireFuture.h */; };
+		445D2A1B1D2D716400C5846A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 443DE5BB1D2ADAC7001608E9 /* Info.plist */; };
+		445D2A1C1D2D716500C5846A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 443DE5BB1D2ADAC7001608E9 /* Info.plist */; };
+		445D2A1D1D2D716600C5846A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 443DE5BB1D2ADAC7001608E9 /* Info.plist */; };
+		445D2A1F1D2D738800C5846A /* RunLoop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC7B1D2D3C0100A79B16 /* RunLoop.framework */; };
+		445D2A201D2D739100C5846A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC741D2D3C0100A79B16 /* Alamofire.framework */; };
+		445D2A211D2D739100C5846A /* Boilerplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC751D2D3C0100A79B16 /* Boilerplate.framework */; };
+		445D2A221D2D739100C5846A /* Event.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC761D2D3C0100A79B16 /* Event.framework */; };
+		445D2A231D2D739100C5846A /* ExecutionContext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC771D2D3C0100A79B16 /* ExecutionContext.framework */; };
+		445D2A241D2D739100C5846A /* Foundation3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC781D2D3C0100A79B16 /* Foundation3.framework */; };
+		445D2A251D2D739100C5846A /* Future.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC791D2D3C0100A79B16 /* Future.framework */; };
+		445D2A261D2D739100C5846A /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC7A1D2D3C0100A79B16 /* Result.framework */; };
 		44D367A11D2BB0820014CEA4 /* CRLAlamofireFuture.h in Headers */ = {isa = PBXBuildFile; fileRef = 443DE5BF1D2ADD18001608E9 /* CRLAlamofireFuture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		44D367A51D2BB2570014CEA4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44D367A31D2BB2570014CEA4 /* Info.plist */; };
 		44D367A61D2BB2570014CEA4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44D367A31D2BB2570014CEA4 /* Info.plist */; };
@@ -72,13 +62,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 443DE5391D2AD67E001608E9;
 			remoteInfo = "CRLAlamofireFuture iOS";
-		};
-		443DE56F1D2AD6C9001608E9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 443DE52F1D2AD5BA001608E9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 443DE5631D2AD6C9001608E9;
-			remoteInfo = "CRLAlamofireFuture tvOS";
 		};
 		443DE58B1D2AD77E001608E9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -106,9 +89,9 @@
 		4431AC791D2D3C0100A79B16 /* Future.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Future.framework; sourceTree = "<group>"; };
 		4431AC7A1D2D3C0100A79B16 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Result.framework; sourceTree = "<group>"; };
 		4431AC7B1D2D3C0100A79B16 /* RunLoop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RunLoop.framework; sourceTree = "<group>"; };
+		4431ACA71D2D70B800A79B16 /* CRLAlamofireFuture-tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "CRLAlamofireFuture-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		443DE53A1D2AD67E001608E9 /* CRLAlamofireFuture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CRLAlamofireFuture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		443DE5441D2AD67E001608E9 /* CRLAlamofireFuture iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CRLAlamofireFuture iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		443DE5641D2AD6C9001608E9 /* CRLAlamofireFuture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CRLAlamofireFuture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		443DE56D1D2AD6C9001608E9 /* CRLAlamofireFuture tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CRLAlamofireFuture tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		443DE5801D2AD77D001608E9 /* CRLAlamofireFuture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CRLAlamofireFuture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		443DE5891D2AD77E001608E9 /* CRLAlamofireFuture OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CRLAlamofireFuture OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +105,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4431ACA31D2D70B800A79B16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445D2A1F1D2D738800C5846A /* RunLoop.framework in Frameworks */,
+				445D2A221D2D739100C5846A /* Event.framework in Frameworks */,
+				445D2A211D2D739100C5846A /* Boilerplate.framework in Frameworks */,
+				445D2A241D2D739100C5846A /* Foundation3.framework in Frameworks */,
+				445D2A201D2D739100C5846A /* Alamofire.framework in Frameworks */,
+				445D2A251D2D739100C5846A /* Future.framework in Frameworks */,
+				445D2A261D2D739100C5846A /* Result.framework in Frameworks */,
+				445D2A231D2D739100C5846A /* ExecutionContext.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		443DE5361D2AD67E001608E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -153,34 +151,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		443DE5601D2AD6C9001608E9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4431AC7C1D2D3C0100A79B16 /* Alamofire.framework in Frameworks */,
-				4431AC7D1D2D3C0100A79B16 /* Boilerplate.framework in Frameworks */,
-				4431AC7E1D2D3C0100A79B16 /* Event.framework in Frameworks */,
-				4431AC7F1D2D3C0100A79B16 /* ExecutionContext.framework in Frameworks */,
-				4431AC801D2D3C0100A79B16 /* Foundation3.framework in Frameworks */,
-				4431AC811D2D3C0100A79B16 /* Future.framework in Frameworks */,
-				4431AC821D2D3C0100A79B16 /* Result.framework in Frameworks */,
-				4431AC831D2D3C0100A79B16 /* RunLoop.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		443DE56A1D2AD6C9001608E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4431AC8D1D2D3F4A00A79B16 /* RunLoop.framework in Frameworks */,
-				4431AC8B1D2D3F4A00A79B16 /* Future.framework in Frameworks */,
-				443DE56E1D2AD6C9001608E9 /* CRLAlamofireFuture.framework in Frameworks */,
-				4431AC881D2D3F4A00A79B16 /* Event.framework in Frameworks */,
-				4431AC8C1D2D3F4A00A79B16 /* Result.framework in Frameworks */,
-				4431AC891D2D3F4A00A79B16 /* ExecutionContext.framework in Frameworks */,
-				4431AC8A1D2D3F4A00A79B16 /* Foundation3.framework in Frameworks */,
-				4431AC871D2D3F4A00A79B16 /* Boilerplate.framework in Frameworks */,
-				4431AC861D2D3F4A00A79B16 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,11 +231,11 @@
 			children = (
 				443DE53A1D2AD67E001608E9 /* CRLAlamofireFuture.framework */,
 				443DE5441D2AD67E001608E9 /* CRLAlamofireFuture iOSTests.xctest */,
-				443DE5641D2AD6C9001608E9 /* CRLAlamofireFuture.framework */,
 				443DE56D1D2AD6C9001608E9 /* CRLAlamofireFuture tvOSTests.xctest */,
 				443DE5801D2AD77D001608E9 /* CRLAlamofireFuture.framework */,
 				443DE5891D2AD77E001608E9 /* CRLAlamofireFuture OSXTests.xctest */,
 				443DE59C1D2AD8FE001608E9 /* CRLAlamofireFuture.framework */,
+				4431ACA71D2D70B800A79B16 /* CRLAlamofireFuture-tvOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -290,19 +264,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		4431ACA41D2D70B800A79B16 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445D2A191D2D715900C5846A /* CRLAlamofireFuture.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		443DE5371D2AD67E001608E9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				443DE5C01D2ADD18001608E9 /* CRLAlamofireFuture.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		443DE5611D2AD6C9001608E9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				443DE5C11D2ADD18001608E9 /* CRLAlamofireFuture.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,21 +299,38 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		443DE5391D2AD67E001608E9 /* CRLAlamofireFuture iOS */ = {
+		4431ACA61D2D70B800A79B16 /* CRLAlamofireFuture-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 443DE54C1D2AD67E001608E9 /* Build configuration list for PBXNativeTarget "CRLAlamofireFuture iOS" */;
+			buildConfigurationList = 4431ACAC1D2D70B800A79B16 /* Build configuration list for PBXNativeTarget "CRLAlamofireFuture-tvOS" */;
 			buildPhases = (
-				443DE5351D2AD67E001608E9 /* Sources */,
-				443DE5361D2AD67E001608E9 /* Frameworks */,
-				443DE5371D2AD67E001608E9 /* Headers */,
-				443DE5381D2AD67E001608E9 /* Resources */,
-				4431AC9F1D2D506600A79B16 /* ShellScript */,
+				4431ACA21D2D70B800A79B16 /* Sources */,
+				4431ACA31D2D70B800A79B16 /* Frameworks */,
+				4431ACA41D2D70B800A79B16 /* Headers */,
+				4431ACA51D2D70B800A79B16 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "CRLAlamofireFuture iOS";
+			name = "CRLAlamofireFuture-tvOS";
+			productName = "CRLAlamofireFuture-tvOS";
+			productReference = 4431ACA71D2D70B800A79B16 /* CRLAlamofireFuture-tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		443DE5391D2AD67E001608E9 /* CRLAlamofireFuture-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 443DE54C1D2AD67E001608E9 /* Build configuration list for PBXNativeTarget "CRLAlamofireFuture-iOS" */;
+			buildPhases = (
+				443DE5351D2AD67E001608E9 /* Sources */,
+				443DE5361D2AD67E001608E9 /* Frameworks */,
+				443DE5371D2AD67E001608E9 /* Headers */,
+				443DE5381D2AD67E001608E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CRLAlamofireFuture-iOS";
 			productName = "CRLAlamofireFuture iOS";
 			productReference = 443DE53A1D2AD67E001608E9 /* CRLAlamofireFuture.framework */;
 			productType = "com.apple.product-type.framework";
@@ -362,25 +353,6 @@
 			productReference = 443DE5441D2AD67E001608E9 /* CRLAlamofireFuture iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		443DE5631D2AD6C9001608E9 /* CRLAlamofireFuture tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 443DE5751D2AD6C9001608E9 /* Build configuration list for PBXNativeTarget "CRLAlamofireFuture tvOS" */;
-			buildPhases = (
-				443DE55F1D2AD6C9001608E9 /* Sources */,
-				443DE5601D2AD6C9001608E9 /* Frameworks */,
-				443DE5611D2AD6C9001608E9 /* Headers */,
-				443DE5621D2AD6C9001608E9 /* Resources */,
-				4431ACA11D2D571A00A79B16 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "CRLAlamofireFuture tvOS";
-			productName = "CRLAlamofireFuture tvOS";
-			productReference = 443DE5641D2AD6C9001608E9 /* CRLAlamofireFuture.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		443DE56C1D2AD6C9001608E9 /* CRLAlamofireFuture tvOSTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 443DE5781D2AD6C9001608E9 /* Build configuration list for PBXNativeTarget "CRLAlamofireFuture tvOSTests" */;
@@ -392,16 +364,15 @@
 			buildRules = (
 			);
 			dependencies = (
-				443DE5701D2AD6C9001608E9 /* PBXTargetDependency */,
 			);
 			name = "CRLAlamofireFuture tvOSTests";
 			productName = "CRLAlamofireFuture tvOSTests";
 			productReference = 443DE56D1D2AD6C9001608E9 /* CRLAlamofireFuture tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		443DE57F1D2AD77D001608E9 /* CRLAlamofireFuture OSX */ = {
+		443DE57F1D2AD77D001608E9 /* CRLAlamofireFuture-OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 443DE5911D2AD77E001608E9 /* Build configuration list for PBXNativeTarget "CRLAlamofireFuture OSX" */;
+			buildConfigurationList = 443DE5911D2AD77E001608E9 /* Build configuration list for PBXNativeTarget "CRLAlamofireFuture-OSX" */;
 			buildPhases = (
 				443DE57B1D2AD77D001608E9 /* Sources */,
 				443DE57C1D2AD77D001608E9 /* Frameworks */,
@@ -412,7 +383,7 @@
 			);
 			dependencies = (
 			);
-			name = "CRLAlamofireFuture OSX";
+			name = "CRLAlamofireFuture-OSX";
 			productName = "CRLAlamofireFuture OSX";
 			productReference = 443DE5801D2AD77D001608E9 /* CRLAlamofireFuture.framework */;
 			productType = "com.apple.product-type.framework";
@@ -435,9 +406,9 @@
 			productReference = 443DE5891D2AD77E001608E9 /* CRLAlamofireFuture OSXTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		443DE59B1D2AD8FE001608E9 /* CRLAlamofireFuture watchOS */ = {
+		443DE59B1D2AD8FE001608E9 /* CRLAlamofireFuture-watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 443DE5A11D2AD8FE001608E9 /* Build configuration list for PBXNativeTarget "CRLAlamofireFuture watchOS" */;
+			buildConfigurationList = 443DE5A11D2AD8FE001608E9 /* Build configuration list for PBXNativeTarget "CRLAlamofireFuture-watchOS" */;
 			buildPhases = (
 				443DE5971D2AD8FE001608E9 /* Sources */,
 				443DE5981D2AD8FE001608E9 /* Frameworks */,
@@ -448,7 +419,7 @@
 			);
 			dependencies = (
 			);
-			name = "CRLAlamofireFuture watchOS";
+			name = "CRLAlamofireFuture-watchOS";
 			productName = "CRLAlamofireFuture watchOS";
 			productReference = 443DE59C1D2AD8FE001608E9 /* CRLAlamofireFuture.framework */;
 			productType = "com.apple.product-type.framework";
@@ -462,13 +433,13 @@
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				TargetAttributes = {
+					4431ACA61D2D70B800A79B16 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					443DE5391D2AD67E001608E9 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 					443DE5431D2AD67E001608E9 = {
-						CreatedOnToolsVersion = 7.3.1;
-					};
-					443DE5631D2AD6C9001608E9 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 					443DE56C1D2AD6C9001608E9 = {
@@ -497,23 +468,30 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				443DE5391D2AD67E001608E9 /* CRLAlamofireFuture iOS */,
+				443DE5391D2AD67E001608E9 /* CRLAlamofireFuture-iOS */,
 				443DE5431D2AD67E001608E9 /* CRLAlamofireFuture iOSTests */,
-				443DE5631D2AD6C9001608E9 /* CRLAlamofireFuture tvOS */,
 				443DE56C1D2AD6C9001608E9 /* CRLAlamofireFuture tvOSTests */,
-				443DE57F1D2AD77D001608E9 /* CRLAlamofireFuture OSX */,
+				443DE57F1D2AD77D001608E9 /* CRLAlamofireFuture-OSX */,
 				443DE5881D2AD77E001608E9 /* CRLAlamofireFuture OSXTests */,
-				443DE59B1D2AD8FE001608E9 /* CRLAlamofireFuture watchOS */,
+				443DE59B1D2AD8FE001608E9 /* CRLAlamofireFuture-watchOS */,
+				4431ACA61D2D70B800A79B16 /* CRLAlamofireFuture-tvOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4431ACA51D2D70B800A79B16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		443DE5381D2AD67E001608E9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				445E15051D2BD45E00946793 /* Cartfile in Resources */,
+				445D2A1D1D2D716600C5846A /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,14 +500,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				44D367A51D2BB2570014CEA4 /* Info.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		443DE5621D2AD6C9001608E9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4431AC731D2D3AE800A79B16 /* Cartfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,7 +515,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4431AC711D2D3AE500A79B16 /* Cartfile in Resources */,
+				445D2A1C1D2D716500C5846A /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,50 +531,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4431AC721D2D3AE700A79B16 /* Cartfile in Resources */,
+				445D2A1B1D2D716400C5846A /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		4431AC9F1D2D506600A79B16 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
+/* Begin PBXSourcesBuildPhase section */
+		4431ACA21D2D70B800A79B16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
+				445D2A181D2D715600C5846A /* CRLAlamofireFuture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage build --platform \"$PLATFORM_NAME\" --project-directory \"$SRCROOT\"";
 		};
-		4431ACA11D2D571A00A79B16 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/tvOS/Alamofire.framework",
-				"$(SRCROOT)/Carthage/Build/tvOS/Boilerplate.framework",
-				"$(SRCROOT)/Carthage/Build/tvOS/Event.framework",
-				"$(SRCROOT)/Carthage/Build/tvOS/ExecutionContext.framework",
-				"$(SRCROOT)/Carthage/Build/tvOS/Foundation3.framework",
-				"$(SRCROOT)/Carthage/Build/tvOS/Future.framework",
-				"$(SRCROOT)/Carthage/Build/tvOS/Result.framework",
-				"$(SRCROOT)/Carthage/Build/tvOS/RunLoop.framework",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-/* End PBXShellScriptBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
 		443DE5351D2AD67E001608E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -619,14 +560,6 @@
 			files = (
 				443DE5C61D2ADDE4001608E9 /* CRLAlamofireFuture.swift in Sources */,
 				44D367A81D2BB2570014CEA4 /* SimpleTest.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		443DE55F1D2AD6C9001608E9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				443DE5C71D2ADDE4001608E9 /* CRLAlamofireFuture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -669,22 +602,134 @@
 /* Begin PBXTargetDependency section */
 		443DE5471D2AD67E001608E9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 443DE5391D2AD67E001608E9 /* CRLAlamofireFuture iOS */;
+			target = 443DE5391D2AD67E001608E9 /* CRLAlamofireFuture-iOS */;
 			targetProxy = 443DE5461D2AD67E001608E9 /* PBXContainerItemProxy */;
-		};
-		443DE5701D2AD6C9001608E9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 443DE5631D2AD6C9001608E9 /* CRLAlamofireFuture tvOS */;
-			targetProxy = 443DE56F1D2AD6C9001608E9 /* PBXContainerItemProxy */;
 		};
 		443DE58C1D2AD77E001608E9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 443DE57F1D2AD77D001608E9 /* CRLAlamofireFuture OSX */;
+			target = 443DE57F1D2AD77D001608E9 /* CRLAlamofireFuture-OSX */;
 			targetProxy = 443DE58B1D2AD77E001608E9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		4431ACAD1D2D70B800A79B16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "CrossroadLabs.CRLAlamofireFuture-tvOS";
+				PRODUCT_NAME = CRLAlamofireFuture;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4431ACAE1D2D70B800A79B16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "CrossroadLabs.CRLAlamofireFuture-tvOS";
+				PRODUCT_NAME = CRLAlamofireFuture;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		443DE5331D2AD5BA001608E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -912,125 +957,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		443DE5761D2AD6C9001608E9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/tvOS",
-				);
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Sources/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "CrossroadLabs.CRLAlamofireFuture-tvOS";
-				PRODUCT_NAME = "$(PROJECT_NAME)";
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		443DE5771D2AD6C9001608E9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/tvOS",
-				);
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Sources/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "CrossroadLabs.CRLAlamofireFuture-tvOS";
-				PRODUCT_NAME = "$(PROJECT_NAME)";
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -1451,6 +1377,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4431ACAC1D2D70B800A79B16 /* Build configuration list for PBXNativeTarget "CRLAlamofireFuture-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4431ACAD1D2D70B800A79B16 /* Debug */,
+				4431ACAE1D2D70B800A79B16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		443DE5321D2AD5BA001608E9 /* Build configuration list for PBXProject "CRLAlamofireFuture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1460,7 +1395,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		443DE54C1D2AD67E001608E9 /* Build configuration list for PBXNativeTarget "CRLAlamofireFuture iOS" */ = {
+		443DE54C1D2AD67E001608E9 /* Build configuration list for PBXNativeTarget "CRLAlamofireFuture-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				443DE54D1D2AD67E001608E9 /* Debug */,
@@ -1478,15 +1413,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		443DE5751D2AD6C9001608E9 /* Build configuration list for PBXNativeTarget "CRLAlamofireFuture tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				443DE5761D2AD6C9001608E9 /* Debug */,
-				443DE5771D2AD6C9001608E9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		443DE5781D2AD6C9001608E9 /* Build configuration list for PBXNativeTarget "CRLAlamofireFuture tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1496,7 +1422,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		443DE5911D2AD77E001608E9 /* Build configuration list for PBXNativeTarget "CRLAlamofireFuture OSX" */ = {
+		443DE5911D2AD77E001608E9 /* Build configuration list for PBXNativeTarget "CRLAlamofireFuture-OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				443DE5921D2AD77E001608E9 /* Debug */,
@@ -1514,7 +1440,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		443DE5A11D2AD8FE001608E9 /* Build configuration list for PBXNativeTarget "CRLAlamofireFuture watchOS" */ = {
+		443DE5A11D2AD8FE001608E9 /* Build configuration list for PBXNativeTarget "CRLAlamofireFuture-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				443DE5A21D2AD8FE001608E9 /* Debug */,

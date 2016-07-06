@@ -8,9 +8,13 @@
 
 import UIKit
 import CRLAlamofireFuture
+import Alamofire
+import Future
 
 class ViewController: UIViewController {
 
+    let correctURLBase = "https://raw.githubusercontent.com/necrowman/CRLAlamofireFuture/master/TestSources/"
+    
     @IBOutlet weak var testLabel: UILabel!
     
     override func viewDidLoad() {
@@ -19,8 +23,17 @@ class ViewController: UIViewController {
 
     @IBAction func didTapTestItButton(sender: AnyObject) {
         
-        testLabel.text = CRLAlamofireFuture.instance.frameworkFunctionExample()
         
+//        testLabel.text = CRLAlamofireFuture.instance.frameworkFunctionExample()
+        
+        let urlString = "\(correctURLBase)simpleTestURL.txt"
+        let future = Alamofire.request(.GET, urlString).responseString()
+        future.onSuccess { [unowned self] value in
+            self.testLabel.text = value
+        }
+        future.onFailure { error in
+            print("Finished with error: ", error)
+        }
     }
 
 

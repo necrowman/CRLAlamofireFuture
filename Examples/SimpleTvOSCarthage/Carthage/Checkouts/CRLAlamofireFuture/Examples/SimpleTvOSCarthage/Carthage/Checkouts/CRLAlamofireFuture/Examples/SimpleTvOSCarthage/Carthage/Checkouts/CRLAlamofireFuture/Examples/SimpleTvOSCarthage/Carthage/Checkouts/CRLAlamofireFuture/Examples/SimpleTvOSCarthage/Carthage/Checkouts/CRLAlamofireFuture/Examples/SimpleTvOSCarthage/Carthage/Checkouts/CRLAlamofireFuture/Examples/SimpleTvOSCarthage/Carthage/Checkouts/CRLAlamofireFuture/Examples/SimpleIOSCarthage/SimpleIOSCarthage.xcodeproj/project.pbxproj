@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4431AC601D2D1F2C00A79B16 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC581D2D1F2C00A79B16 /* Alamofire.framework */; };
+		4431AC611D2D1F2C00A79B16 /* Boilerplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC591D2D1F2C00A79B16 /* Boilerplate.framework */; };
+		4431AC621D2D1F2C00A79B16 /* Event.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC5A1D2D1F2C00A79B16 /* Event.framework */; };
+		4431AC631D2D1F2C00A79B16 /* ExecutionContext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC5B1D2D1F2C00A79B16 /* ExecutionContext.framework */; };
+		4431AC641D2D1F2C00A79B16 /* Foundation3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC5C1D2D1F2C00A79B16 /* Foundation3.framework */; };
+		4431AC651D2D1F2C00A79B16 /* Future.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC5D1D2D1F2C00A79B16 /* Future.framework */; };
+		4431AC661D2D1F2C00A79B16 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC5E1D2D1F2C00A79B16 /* Result.framework */; };
+		4431AC671D2D1F2C00A79B16 /* RunLoop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC5F1D2D1F2C00A79B16 /* RunLoop.framework */; };
 		44D06D0C1D2BBDC100BB2A15 /* CRLAlamofireFuture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D06D0B1D2BBDC100BB2A15 /* CRLAlamofireFuture.framework */; };
 		44D367B81D2BB8630014CEA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D367B71D2BB8630014CEA4 /* AppDelegate.swift */; };
 		44D367BA1D2BB8630014CEA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D367B91D2BB8630014CEA4 /* ViewController.swift */; };
@@ -27,7 +35,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		44D06D0B1D2BBDC100BB2A15 /* CRLAlamofireFuture.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CRLAlamofireFuture.framework; path = Carthage/Build/iOS/CRLAlamofireFuture.framework; sourceTree = "<group>"; };
+		4431AC581D2D1F2C00A79B16 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		4431AC591D2D1F2C00A79B16 /* Boilerplate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Boilerplate.framework; sourceTree = "<group>"; };
+		4431AC5A1D2D1F2C00A79B16 /* Event.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Event.framework; sourceTree = "<group>"; };
+		4431AC5B1D2D1F2C00A79B16 /* ExecutionContext.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ExecutionContext.framework; sourceTree = "<group>"; };
+		4431AC5C1D2D1F2C00A79B16 /* Foundation3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Foundation3.framework; sourceTree = "<group>"; };
+		4431AC5D1D2D1F2C00A79B16 /* Future.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Future.framework; sourceTree = "<group>"; };
+		4431AC5E1D2D1F2C00A79B16 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Result.framework; sourceTree = "<group>"; };
+		4431AC5F1D2D1F2C00A79B16 /* RunLoop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RunLoop.framework; sourceTree = "<group>"; };
+		44D06D0B1D2BBDC100BB2A15 /* CRLAlamofireFuture.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CRLAlamofireFuture.framework; sourceTree = "<group>"; };
 		44D367B41D2BB8630014CEA4 /* SimpleIOSCarthage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleIOSCarthage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D367B71D2BB8630014CEA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44D367B91D2BB8630014CEA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +61,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4431AC601D2D1F2C00A79B16 /* Alamofire.framework in Frameworks */,
+				4431AC611D2D1F2C00A79B16 /* Boilerplate.framework in Frameworks */,
+				4431AC621D2D1F2C00A79B16 /* Event.framework in Frameworks */,
+				4431AC631D2D1F2C00A79B16 /* ExecutionContext.framework in Frameworks */,
+				4431AC641D2D1F2C00A79B16 /* Foundation3.framework in Frameworks */,
+				4431AC651D2D1F2C00A79B16 /* Future.framework in Frameworks */,
+				4431AC661D2D1F2C00A79B16 /* Result.framework in Frameworks */,
+				4431AC671D2D1F2C00A79B16 /* RunLoop.framework in Frameworks */,
 				44D06D0C1D2BBDC100BB2A15 /* CRLAlamofireFuture.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -59,10 +83,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4431AC571D2D1EEE00A79B16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4431AC581D2D1F2C00A79B16 /* Alamofire.framework */,
+				4431AC591D2D1F2C00A79B16 /* Boilerplate.framework */,
+				4431AC5A1D2D1F2C00A79B16 /* Event.framework */,
+				4431AC5B1D2D1F2C00A79B16 /* ExecutionContext.framework */,
+				4431AC5C1D2D1F2C00A79B16 /* Foundation3.framework */,
+				4431AC5D1D2D1F2C00A79B16 /* Future.framework */,
+				4431AC5E1D2D1F2C00A79B16 /* Result.framework */,
+				4431AC5F1D2D1F2C00A79B16 /* RunLoop.framework */,
+				44D06D0B1D2BBDC100BB2A15 /* CRLAlamofireFuture.framework */,
+			);
+			name = Frameworks;
+			path = Carthage/Build/iOS;
+			sourceTree = "<group>";
+		};
 		44D367AB1D2BB8630014CEA4 = {
 			isa = PBXGroup;
 			children = (
-				44D06D0B1D2BBDC100BB2A15 /* CRLAlamofireFuture.framework */,
+				4431AC571D2D1EEE00A79B16 /* Frameworks */,
 				44D367B61D2BB8630014CEA4 /* SimpleIOSCarthage */,
 				44D367CB1D2BB8630014CEA4 /* SimpleIOSCarthageUITests */,
 				44D367B51D2BB8630014CEA4 /* Products */,
@@ -205,6 +246,14 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/CRLAlamofireFuture.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Boilerplate.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RunLoop.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Event.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ExecutionContext.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Foundation3.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Future.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
 			);
 			outputPaths = (
 			);
