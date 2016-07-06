@@ -13,7 +13,7 @@ import Future
 
 class ViewController: UIViewController {
 
-    let correctURLBase = "https://raw.githubusercontent.com/necrowman/CRLAlomofireFeature/master/"
+    let correctURLBase = "https://raw.githubusercontent.com/necrowman/CRLAlamofireFuture/master/TestSources/"
     
     @IBOutlet weak var testLabel: UILabel!
     
@@ -27,15 +27,13 @@ class ViewController: UIViewController {
         testLabel.text = CRLAlamofireFuture.instance.frameworkFunctionExample()
         
         let urlString = "\(correctURLBase)simpleTestURL.txt"
-        let future = Alamofire.request(.GET, urlString).responseString(queue: <#T##dispatch_queue_t?#>, encoding: <#T##NSStringEncoding?#>, completionHandler: <#T##Response<String, NSError> -> Void#>)
+        let future = Alamofire.request(.GET, urlString).responseString()
         future.onSuccess { [unowned self] value in
             self.testLabel.text = value
         }
-        future.onFailure { [unowned self] error in
-            self.testLabel.text = error
+        future.onFailure { error in
+            print("Finished with error: ", error)
         }
-        
-        
     }
 
 

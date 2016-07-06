@@ -9,8 +9,7 @@
 import XCTest
 import Alamofire
 import Future
-@testable import CRLAlamofireFuture
-
+import CRLAlamofireFuture
 
 class CRLAlamofireFuture_iOSTests: XCTestCase {
     
