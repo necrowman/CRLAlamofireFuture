@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4431AC4E1D2D12D500A79B16 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC461D2D12D500A79B16 /* Alamofire.framework */; };
+		4431AC4F1D2D12D500A79B16 /* Boilerplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC471D2D12D500A79B16 /* Boilerplate.framework */; };
+		4431AC501D2D12D500A79B16 /* Event.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC481D2D12D500A79B16 /* Event.framework */; };
+		4431AC511D2D12D500A79B16 /* ExecutionContext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC491D2D12D500A79B16 /* ExecutionContext.framework */; };
+		4431AC521D2D12D500A79B16 /* Foundation3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC4A1D2D12D500A79B16 /* Foundation3.framework */; };
+		4431AC531D2D12D500A79B16 /* Future.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC4B1D2D12D500A79B16 /* Future.framework */; };
+		4431AC541D2D12D500A79B16 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC4C1D2D12D500A79B16 /* Result.framework */; };
+		4431AC551D2D12D500A79B16 /* RunLoop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4431AC4D1D2D12D500A79B16 /* RunLoop.framework */; };
 		443DE5451D2AD67E001608E9 /* CRLAlamofireFuture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 443DE53A1D2AD67E001608E9 /* CRLAlamofireFuture.framework */; };
 		443DE56E1D2AD6C9001608E9 /* CRLAlamofireFuture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 443DE5641D2AD6C9001608E9 /* CRLAlamofireFuture.framework */; };
 		443DE58A1D2AD77E001608E9 /* CRLAlamofireFuture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 443DE5801D2AD77D001608E9 /* CRLAlamofireFuture.framework */; };
@@ -20,6 +28,7 @@
 		443DE5C91D2ADDE4001608E9 /* CRLAlamofireFuture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DE5C41D2ADDE4001608E9 /* CRLAlamofireFuture.swift */; };
 		443DE5CA1D2ADDE4001608E9 /* CRLAlamofireFuture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DE5C41D2ADDE4001608E9 /* CRLAlamofireFuture.swift */; };
 		443DE5CB1D2ADDE4001608E9 /* CRLAlamofireFuture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DE5C41D2ADDE4001608E9 /* CRLAlamofireFuture.swift */; };
+		445E15051D2BD45E00946793 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 445E15041D2BD45E00946793 /* Cartfile */; };
 		44D367A11D2BB0820014CEA4 /* CRLAlamofireFuture.h in Headers */ = {isa = PBXBuildFile; fileRef = 443DE5BF1D2ADD18001608E9 /* CRLAlamofireFuture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		44D367A51D2BB2570014CEA4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44D367A31D2BB2570014CEA4 /* Info.plist */; };
 		44D367A61D2BB2570014CEA4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44D367A31D2BB2570014CEA4 /* Info.plist */; };
@@ -54,6 +63,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4431AC461D2D12D500A79B16 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		4431AC471D2D12D500A79B16 /* Boilerplate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Boilerplate.framework; sourceTree = "<group>"; };
+		4431AC481D2D12D500A79B16 /* Event.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Event.framework; sourceTree = "<group>"; };
+		4431AC491D2D12D500A79B16 /* ExecutionContext.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ExecutionContext.framework; sourceTree = "<group>"; };
+		4431AC4A1D2D12D500A79B16 /* Foundation3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Foundation3.framework; sourceTree = "<group>"; };
+		4431AC4B1D2D12D500A79B16 /* Future.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Future.framework; sourceTree = "<group>"; };
+		4431AC4C1D2D12D500A79B16 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Result.framework; sourceTree = "<group>"; };
+		4431AC4D1D2D12D500A79B16 /* RunLoop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RunLoop.framework; sourceTree = "<group>"; };
 		443DE53A1D2AD67E001608E9 /* CRLAlamofireFuture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CRLAlamofireFuture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		443DE5441D2AD67E001608E9 /* CRLAlamofireFuture iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CRLAlamofireFuture iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		443DE5641D2AD6C9001608E9 /* CRLAlamofireFuture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CRLAlamofireFuture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +81,7 @@
 		443DE5BB1D2ADAC7001608E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		443DE5BF1D2ADD18001608E9 /* CRLAlamofireFuture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRLAlamofireFuture.h; sourceTree = "<group>"; };
 		443DE5C41D2ADDE4001608E9 /* CRLAlamofireFuture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRLAlamofireFuture.swift; sourceTree = "<group>"; };
+		445E15041D2BD45E00946793 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		44D367A31D2BB2570014CEA4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44D367A41D2BB2570014CEA4 /* SimpleTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +91,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4431AC4E1D2D12D500A79B16 /* Alamofire.framework in Frameworks */,
+				4431AC4F1D2D12D500A79B16 /* Boilerplate.framework in Frameworks */,
+				4431AC501D2D12D500A79B16 /* Event.framework in Frameworks */,
+				4431AC511D2D12D500A79B16 /* ExecutionContext.framework in Frameworks */,
+				4431AC521D2D12D500A79B16 /* Foundation3.framework in Frameworks */,
+				4431AC531D2D12D500A79B16 /* Future.framework in Frameworks */,
+				4431AC541D2D12D500A79B16 /* Result.framework in Frameworks */,
+				4431AC551D2D12D500A79B16 /* RunLoop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,9 +150,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4431AC451D2D103D00A79B16 /* iOSFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4431AC461D2D12D500A79B16 /* Alamofire.framework */,
+				4431AC471D2D12D500A79B16 /* Boilerplate.framework */,
+				4431AC481D2D12D500A79B16 /* Event.framework */,
+				4431AC491D2D12D500A79B16 /* ExecutionContext.framework */,
+				4431AC4A1D2D12D500A79B16 /* Foundation3.framework */,
+				4431AC4B1D2D12D500A79B16 /* Future.framework */,
+				4431AC4C1D2D12D500A79B16 /* Result.framework */,
+				4431AC4D1D2D12D500A79B16 /* RunLoop.framework */,
+			);
+			name = iOSFrameworks;
+			path = Carthage/Build/iOS;
+			sourceTree = "<group>";
+		};
 		443DE52E1D2AD5BA001608E9 = {
 			isa = PBXGroup;
 			children = (
+				4431AC451D2D103D00A79B16 /* iOSFrameworks */,
 				44D367A21D2BB2330014CEA4 /* Tests */,
 				443DE5BA1D2ADAC7001608E9 /* Sources */,
 				443DE53B1D2AD67E001608E9 /* Products */,
@@ -150,6 +193,7 @@
 		443DE5BA1D2ADAC7001608E9 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				445E15041D2BD45E00946793 /* Cartfile */,
 				443DE5C41D2ADDE4001608E9 /* CRLAlamofireFuture.swift */,
 				443DE5BF1D2ADD18001608E9 /* CRLAlamofireFuture.h */,
 				443DE5BB1D2ADAC7001608E9 /* Info.plist */,
@@ -213,6 +257,8 @@
 				443DE5361D2AD67E001608E9 /* Frameworks */,
 				443DE5371D2AD67E001608E9 /* Headers */,
 				443DE5381D2AD67E001608E9 /* Resources */,
+				445E15001D2BD41D00946793 /* ShellScript */,
+				4431AC561D2D147500A79B16 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -249,6 +295,7 @@
 				443DE5601D2AD6C9001608E9 /* Frameworks */,
 				443DE5611D2AD6C9001608E9 /* Headers */,
 				443DE5621D2AD6C9001608E9 /* Resources */,
+				445E15011D2BD42F00946793 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -285,6 +332,7 @@
 				443DE57C1D2AD77D001608E9 /* Frameworks */,
 				443DE57D1D2AD77D001608E9 /* Headers */,
 				443DE57E1D2AD77D001608E9 /* Resources */,
+				445E15021D2BD43900946793 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -321,6 +369,7 @@
 				443DE5981D2AD8FE001608E9 /* Frameworks */,
 				443DE5991D2AD8FE001608E9 /* Headers */,
 				443DE59A1D2AD8FE001608E9 /* Resources */,
+				445E15031D2BD43F00946793 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -391,6 +440,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				445E15051D2BD45E00946793 /* Cartfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +490,82 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4431AC561D2D147500A79B16 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Boilerplate.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Event.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ExecutionContext.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Foundation3.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Future.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RunLoop.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		445E15001D2BD41D00946793 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage build --platform \"$PLATFORM_NAME\" --project-directory \"$SRCROOT\"";
+		};
+		445E15011D2BD42F00946793 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage build --platform \"$PLATFORM_NAME\" --project-directory \"$SRCROOT\"";
+		};
+		445E15021D2BD43900946793 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage build --platform \"$PLATFORM_NAME\" --project-directory \"$SRCROOT\"";
+		};
+		445E15031D2BD43F00946793 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage build --platform \"$PLATFORM_NAME\" --project-directory \"$SRCROOT\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		443DE5351D2AD67E001608E9 /* Sources */ = {
@@ -562,6 +688,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -621,6 +751,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -763,6 +897,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -822,6 +960,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
