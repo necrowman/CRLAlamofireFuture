@@ -333,7 +333,6 @@
 				443DE5361D2AD67E001608E9 /* Frameworks */,
 				443DE5371D2AD67E001608E9 /* Headers */,
 				443DE5381D2AD67E001608E9 /* Resources */,
-				445E15001D2BD41D00946793 /* ShellScript */,
 				4431AC561D2D147500A79B16 /* ShellScript */,
 			);
 			buildRules = (
@@ -410,7 +409,6 @@
 				443DE57C1D2AD77D001608E9 /* Frameworks */,
 				443DE57D1D2AD77D001608E9 /* Headers */,
 				443DE57E1D2AD77D001608E9 /* Resources */,
-				445E15021D2BD43900946793 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -447,7 +445,6 @@
 				443DE5981D2AD8FE001608E9 /* Frameworks */,
 				443DE5991D2AD8FE001608E9 /* Headers */,
 				443DE59A1D2AD8FE001608E9 /* Resources */,
-				445E15031D2BD43F00946793 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -637,46 +634,7 @@
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
-		445E15001D2BD41D00946793 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage build --platform \"$PLATFORM_NAME\" --project-directory \"$SRCROOT\"";
-		};
 		445E15011D2BD42F00946793 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage build --platform \"$PLATFORM_NAME\" --project-directory \"$SRCROOT\"";
-		};
-		445E15021D2BD43900946793 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage build --platform \"$PLATFORM_NAME\" --project-directory \"$SRCROOT\"";
-		};
-		445E15031D2BD43F00946793 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
