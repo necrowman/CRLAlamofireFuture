@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SimpleTvOSCarthage" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="or3-iq-1uz">
+                                <rect key="frame" x="100" y="100" width="1720" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="OmC-bg-0IR"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="TEST IT"/>
+                                <connections>
+                                    <action selector="didTapTestButton:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="4FF-uw-IMD"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V77-aw-70V">
+                                <rect key="frame" x="100" y="300" width="1720" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="0.82745099070000006" green="0.0" blue="0.2274509817" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="V77-aw-70V" firstAttribute="leading" secondItem="or3-iq-1uz" secondAttribute="leading" id="7Dm-z5-Iqe"/>
+                            <constraint firstItem="V77-aw-70V" firstAttribute="top" secondItem="or3-iq-1uz" secondAttribute="bottom" constant="100" id="MwL-gz-6mR"/>
+                            <constraint firstAttribute="trailing" secondItem="or3-iq-1uz" secondAttribute="trailing" constant="100" id="XDg-7J-LuI"/>
+                            <constraint firstItem="or3-iq-1uz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="100" id="hRf-ga-5hy"/>
+                            <constraint firstItem="or3-iq-1uz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="hke-aw-5Pb"/>
+                            <constraint firstItem="V77-aw-70V" firstAttribute="trailing" secondItem="or3-iq-1uz" secondAttribute="trailing" id="vV9-bM-GJC"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="testLabel" destination="V77-aw-70V" id="ISd-Av-mn1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="103" y="241"/>
+        </scene>
+    </scenes>
+</document>
